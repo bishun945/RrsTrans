@@ -1,0 +1,20 @@
+Package: RrsTrans
+Title: Transfer remote-sensing ratio (rrs) to remote-sensing reflectance (Rrs)
+Version: 0.1
+Authors@R: 
+    person("Shun", "Bi", , "Shun.Bi@hereon.de", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-2668-5808"))
+Description: Transfer models to determine the above-water remote-sensing 
+  reflectance from the underwater remote-sensing ratio. The package is an 
+  appendix of our recent study entitled "A transfer model to determine the 
+  above-water remote-sensing reflectance from the underwater remote-sensing 
+  ratio" by Bi et al. (202x). Please refer to this paper for more details.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: 
+    data.table
+Depends: 
+    R (>= 2.10)
+LazyData: true
