@@ -30,6 +30,12 @@ You can install the development version of RrsTrans like so:
 remotes::install_github("bishun945/RrsTrans")
 ```
 
+## Online tool
+
+A `shiny`-based online tool has been added to this package. Please refer it via the link:
+
+https://bishun945.shinyapps.io/RrsTransShinny/
+
 ## Example
 
 This is a basic example which shows you how to run the models in our package:

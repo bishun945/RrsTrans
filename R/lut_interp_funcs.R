@@ -46,7 +46,8 @@ lut_interp_Lee11 <- function(Theta, Phi, suntheta) {
       }
     }
 
-    g_values[gvar] <- approx3d(mat_g, bd_T, bd_P, bd_s, Theta, Phi, suntheta)
+    # g_values[gvar] <- approx3d(mat_g, bd_T, bd_P, bd_s, Theta, Phi, suntheta)
+    g_values[gvar] <- approxNd(mat_g, list(bd_T, bd_P, bd_s), list(Theta, Phi, suntheta))
 
   }
 
@@ -116,8 +117,11 @@ lut_interp_Bi22 <- function(Theta, Phi, suntheta, windspd, cloud) {
       }
     }
 
-    ab_values[ab_var] <- approx5d(mat_ab, bd_T, bd_P, bd_s, bd_w, bd_c,
-                                  Theta, Phi, suntheta, windspd, cloud)
+    # ab_values[ab_var] <- approx5d(mat_ab, bd_T, bd_P, bd_s, bd_w, bd_c,
+    #                               Theta, Phi, suntheta, windspd, cloud)
+    ab_values[ab_var] <- approxNd(mat_ab,
+                                  list(bd_T, bd_P, bd_s, bd_w, bd_c),
+                                  list(Theta, Phi, suntheta, windspd, cloud))
 
   }
 

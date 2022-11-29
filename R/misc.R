@@ -14,4 +14,3 @@ Quan_Fry <- function(wv, Sal=35, Temp=26) {
   return(n)
 }
 
-
