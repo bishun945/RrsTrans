@@ -1,0 +1,9 @@
+cff-version: 1.1.0
+message: ""
+authors:
+  - family-names: Bi
+    given-names: Shun
+    orcid: https://orcid.org/0000-0002-2668-5808
+title: bishun945/RrsTrans: RrsTrans v0.1
+version: v0.1
+date-released: 2023-02-22
