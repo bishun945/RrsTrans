@@ -4,9 +4,7 @@
 # RrsTrans
 
 <!-- badges: start -->
-
-[![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![DOI](https://zenodo.org/badge/565256702.svg)](https://zenodo.org/badge/latestdoi/565256702)
 <!-- badges: end -->
 
 The R package `RrsTrans` is created as an appendix of our recent study
